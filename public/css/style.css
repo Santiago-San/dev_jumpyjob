@@ -1,0 +1,330 @@
+.cbtn{
+	background:#720642!important;
+	color: #fff!important;
+	border-radius:15px;
+	padding:7px 15px;
+}
+.event-list {
+		list-style: none;
+		font-family: 'Lato', sans-serif;
+		margin: 0px;
+		padding: 0px;
+	}
+	.event-list > li {
+		
+		box-shadow: 0px 0px 5px #FFB800;
+		box-shadow: 0px 0px 5px #FFB800;
+		padding: 0px;
+		margin: 0px 0px 20px;
+		border:1px solid #FFB800;
+	}
+	
+	.event-list > li > img {
+		width: 100%;
+	}
+	.event-list > li > .info {
+		padding-top: 5px;
+		text-align: center;
+	}
+	.event-list > li > .info > .title {
+		font-size: 17pt;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	.event-list > li > .info > .desc {
+		font-size: 13pt;
+		font-weight: 300;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.event-list > li > .info > ul,
+	.event-list > li > .social > ul {
+		display: table;
+		list-style: none;
+		margin: 10px 0px 0px;
+		padding: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.event-list > li > .social > ul {
+		margin: 0px;
+	}
+	.event-list > li > .info > ul > li,
+	.event-list > li > .social > ul > li {
+		display: table-cell;
+		cursor: pointer;
+		color: rgb(30, 30, 30);
+		font-size: 11pt;
+		font-weight: 300;
+        padding: 3px 0px;
+	}
+    .event-list > li > .info > ul > li > a {
+		display: block;
+		width: 100%;
+		color: rgb(30, 30, 30);
+		text-decoration: none;
+	} 
+    .event-list > li > .social > ul > li {    
+        padding: 0px;
+    }
+    .event-list > li > .social > ul > li > a {
+        padding: 3px 0px;
+	} 
+	.event-list > li > .info > ul > li:hover,
+	.event-list > li > .social > ul > li:hover {
+		color: rgb(30, 30, 30);
+		background-color: rgb(200, 200, 200);
+	}
+	.facebook a,
+	.twitter a,
+	.google-plus a {
+		display: block;
+		width: 100%;
+		color: rgb(75, 110, 168) !important;
+	}
+	.twitter a {
+		color: rgb(79, 213, 248) !important;
+	}
+	.google-plus a {
+		color: rgb(221, 75, 57) !important;
+	}
+	.facebook:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(75, 110, 168) !important;
+	}
+	.twitter:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(79, 213, 248) !important;
+	}
+	.google-plus:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(221, 75, 57) !important;
+	}
+
+	@media (min-width: 768px) {
+		.event-list > li {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 150px;
+			padding: 0px;
+		}
+		.event-list > li > time,
+		.event-list > li > img  {
+			display: inline-block;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			float: left;
+		}
+		.event-list > li > .info {
+			background-color: rgb(245, 245, 245);
+			overflow: hidden;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 150px;
+			height: 150px;
+			padding: 0px;
+			margin: 0px;
+		}
+		.event-list > li > .info {
+			position: relative;
+			height: 150px;
+			text-align: left;
+			padding-right: 40px;
+		}	
+		.event-list > li > .info > .title, 
+		.event-list > li > .info > .desc {
+			padding: 0px 10px;
+		}
+		.event-list > li > .info > ul {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+		.event-list > li > .social {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+        .event-list > li > .social > ul {
+            border-left: 1px solid rgb(230, 230, 230);
+        }
+		.event-list > li > .social > ul > li {			
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 10px 0px 9px;
+		}
+	}
+	.leftClass li label input{
+		float:left; margin-top:7px; margin-right:10px;
+	}
+	.leftClass li label{ padding:10px;}
+	.leftClass li{
+		 border-bottom:1px solid #fff;
+	}
+	.leftnavsearch{
+		background:#eee;
+	}
+	.joblist-btn1{
+		background: green;
+		color: #fff;
+		padding: 7px 20px;
+		border-radius: 21px;
+		width: 100%;
+		
+	}
+	.joblist-btn3{ 
+		background: #090f72;
+		color: #fff;
+		padding: 7px 20px;
+		border-radius: 21px;
+		width: 100%;
+		}
+	.joblist-btn2{
+		background: #720642;
+		color: #fff;
+		padding: 7px 20px;
+		border-radius: 21px;
+		width: 100%;
+		
+	}
+	.joblist-btn4{
+		background: #687109;
+		color: #fff;
+		padding: 7px 20px;
+		border-radius: 21px;
+		width: 100%;
+	}
+	.cbtnl:hover{
+		color:#fff;
+	}
+.catbox:hover .texthead1{display:none;}
+.catbox:hover .texthead2{display:block!important;}
+.catbox:hover{background:#999;}
+.catbox{
+	text-align:center;
+	padding:20px;background:#eee;
+	border:1px solid #FFB800;
+	margin:10px;
+}
+ .nboxslider h3{ color: #000000;
+  font-size: 16px;
+  padding: 6px 0px 1px;
+  font-weight: 500;
+ }
+ .texthead1, .texthead2{text-transform:capitalize;}
+ 
+ 
+article.card.car-details {
+  border: 1px solid #f8f9fa;
+  box-shadow: 0 0 20px 0px #dee2e6;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+article.card.car-details h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+article.card.car-details ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+article.card.car-details ul li {
+  margin-bottom: 1rem;
+}
+article.card.car-details ul li i {
+  width: 24px;
+}
+article.card.car-details ul.rating {
+  display: flex;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+article.card.car-details ul.rating li {
+  margin-bottom: 0;
+}
+article.card.car-details ul.rating li:not(:last-child) {
+  margin-right: 0.25rem;
+}
+article.card.car-details .thumbnail {
+  width: 400px;
+  height: 170px;
+  margin-right: 1rem;
+  border: 1px solid #e9ecef;
+  cursor: zoom-in;
+}
+article.card.car-details .thumbnail:after {
+  
+  font-weight: 900;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #e9ecef;
+  background: #0000000d;
+  color: #6c757d;
+}
+article.card.car-details:not(:last-child) {
+  margin-bottom: 2rem;
+}
+article.card.car-details:hover {
+  background: #f8f9fa;
+}
+article.card.car-details:before {
+  width: 200px;
+  color: #fff;
+  position: absolute;
+  transform: rotate(-45deg);
+  z-index: 1;
+  text-align: center;
+  padding: 0.35rem;
+  top: 35px;
+  left: -50px;
+  font-weight: bold;
+}
+article.card.car-details.label-info:before {
+  background: #1DA1F2;
+}
+article.card.car-details.label-primary:before {
+  background: #004b9d;
+}
+article.card.car-details.label-success:before {
+  background: #218939;
+}
+article.card.car-details.label-warning:before {
+  background: #cb9b08;
+}
+article.card.car-details.label-danger:before {
+  background: #b23737;
+}
+article.card.car-details.label-purple:before {
+  background: #7032c2;
+}
+
+.text-grey {
+  color: #bbbbbb;
+}
+
+.btn-default {
+  background: #fff;
+  border: 1px solid #e9ecef;
+}
+.btn-default i {
+  color: #8e6c06;
+}
